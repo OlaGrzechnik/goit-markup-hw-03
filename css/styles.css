@@ -1,0 +1,184 @@
+:root {
+  --blue: #2196f3;
+}
+.blue {
+  color: var(--blue);
+}
+body {
+  font-family: "roboto", "Raleway", sans-serif;
+  text-decoration: none;
+  color: #212121;
+}
+.logo-top a:link {
+  color: black;
+  text-decoration: none;
+  font-family: "raleway";
+  font-weight: 700;
+  font-size: 26px;
+}
+.logo-top a:visited {
+  color: black;
+}
+
+.top {
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-links a:link {
+  color: #757575;
+  text-decoration: none;
+}
+.top-links a:hover {
+  color: var(--blue);
+}
+
+.nav {
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav a:link {
+  color: black;
+  text-decoration: none;
+}
+.nav a:visited {
+  color: black;
+  text-decoration: none;
+}
+.nav a:hover {
+  color: var(--blue);
+}
+
+.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.link {
+  color: black;
+}
+.filters {
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  margin-right: 8px;
+}
+.no-bullets > li {
+  display: inline-block;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+.project-type {
+  font-size: 16px;
+}
+.footer {
+  color: white;
+  background-color: black;
+}
+.main-portfolio {
+  margin-left: 215px;
+  margin-right: 215px;
+  margin-top: 94px;
+}
+.contact-bottom {
+  font-style: normal;
+  margin-left: 215px;
+  text-align: left;
+}
+.intro {
+  background-color: #2f303a;
+  color: white;
+  font-weight: 900;
+  font-size: 44px;
+  padding: 200px 452px 280px 452px;
+  text-align: center;
+}
+.main-index {
+  margin-left: 215px;
+  margin-right: 215px;
+}
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "roboto";
+  cursor: pointer;
+  margin-right: 8px;
+  border: 0;
+  border-radius: 4px;
+  line-height: 26px;
+  padding: 6px 22px 6px 22px;
+}
+.button:hover {
+  background-color: var(--blue);
+  color: white;
+}
+.contact-bottom-address {
+  font-style: normal;
+  text-align: left;
+}
+.contact-bottom-links a:link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.contact-bottom-links a:hover {
+  color: var(--blue);
+}
+.logo-bottom {
+  font-family: "raleway";
+  font-weight: 700;
+  font-size: 26px;
+  padding-left: 215px;
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+.logo-bottom a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  width: 1200px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.bluebutton {
+  background-color: var(--blue);
+  color: white;
+  width: 200px;
+  font-size: 16px;
+  line-height: 30px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  list-style-type: none;
+}
+.card {
+  flex-basis: calc((100%-60px) / 3);
+}
+.lorem {
+  display: flex;
+  margin: 0;
+}
+.ipsum {
+  flex-basis: calc((100%-90px) / 4);
+}
+.what-we-do {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+.team {
+  display: flex;
+}
+.team-member {
+  flex-basis: calc((100%-90px) / 4);
+}
