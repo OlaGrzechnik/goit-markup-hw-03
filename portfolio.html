@@ -7,7 +7,7 @@
     <title>Portfolio</title>
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,161 +18,181 @@
     />
   </head>
   <body>
-    <header class="top container">
-      <div class="logo-top">
-        <a href="index.html"><span class="blue">Web</span>studio</a>
-      </div>
-
-      <nav class="nav">
-        <a href="#"><span>agencja</span></a>
-        <a href="portfolio.html">portfolio</a>
-        <a href="#">kontakt</a>
-      </nav>
-
-      <div class="top-links">
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
+    <header>
+      <div class="container">
+        <div class="top">
+          <div class="logo-top">
+            <a href="index.html"><span class="blue">Web</span>studio</a>
+          </div>
+          <nav class="nav">
+            <a href="#"><span>agencja</span></a>
+            <a href="portfolio.html">portfolio</a>
+            <a href="#">kontakt</a>
+          </nav>
+          <div class="top-links">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="tel:+48111111111">+48 111 111 111</a>
+          </div>
+        </div>
       </div>
     </header>
     <section class="main-portfolio section">
-      <ul class="no-bullets filters">
-        <li><button type="button" class="button">Wszystkie</button></li>
-        <li><button type="button" class="button">Strony</button></li>
-        <li><button type="button" class="button">Aplikacje</button></li>
-        <li><button type="button" class="button">Dizajn</button></li>
-        <li><button type="button" class="button">Marketing</button></li>
-      </ul>
-      <ul class="cards">
-        <li class="card">
-          <figure>
-            <img
-              src="images/laptop.jpg"
-              alt="laptop"
-              width="370"
-              height="294"
-            />
-            <figcaption class="project-type">
-              <h4 class="project-title">Technotrack</h4>
-              <br />Strona internetowa
-            </figcaption>
-          </figure>
-        </li>
-        <li class="card">
-          <figure>
-            <img
-              src="images/basketball.jpg"
-              alt="koszykarze"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <h4 class="project-title">Grafika New Orleans vs Golden Star</h4>
-              <br />Dizajn
-            </figcaption>
-          </figure>
-        </li>
-        <li class="card">
-          <figure>
-            <img
-              src="images/seafood.jpg"
-              alt="logo restauracji"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <h4 class="project-title">Restauracja Seafood</h4>
-              <br />Aplikacja
-            </figcaption>
-          </figure>
-        </li>
-        <li class="card">
-          <figure>
-            <img
-              src="images/headphones.jpg"
-              alt="słuchawki"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <h4 class="project-title">Projekt Prime</h4>
-              <br />Marketing
-            </figcaption>
-          </figure>
-        </li>
-        <li class="card">
-          <figure>
-            <img src="images/box.jpg" alt="pudełka" width="370" height="294" />
-            <figcaption>
-              <h4 class="project-title">Projekt Boxes</h4>
-              <br />Aplikacja
-            </figcaption>
-          </figure>
-        </li>
-        <li class="card">
-          <figure>
-            <img
-              src="images/monitor.jpg"
-              alt="monitor"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <h4>Inspiration has no Borders</h4>
-              <br />Strona internetowa
-            </figcaption>
-          </figure>
-        </li>
-        <li class="card">
-          <figure>
-            <img
-              src="images/magazine.jpg"
-              alt="czasopismo"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <h4>Magazyn Limited Edition</h4>
-              <br />Dizajn
-            </figcaption>
-          </figure>
-        </li>
-        <li class="card">
-          <figure>
-            <img src="images/label.jpg" alt="metka" width="370" height="294" />
-            <figcaption>
-              <h4>Projekt LAB</h4>
-              <br />Marketing
-            </figcaption>
-          </figure>
-        </li>
-        <li class="card">
-          <figure>
-            <img
-              src="images/handson.jpg"
-              alt="ręce na laptopie"
-              width="370"
-              height="294"
-            />
-            <figcaption>
-              <h4>Growing Business</h4>
-              <br />Aplikacja
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
-    </section>
-    <footer class="footer container">
-      <div class="logo-bottom">
-        <a href="index.html"><span class="blue">Web</span>Studio</a>
+      <div class="container">
+        <ul class="no-bullets filters">
+          <li><button type="button" class="button">Wszystkie</button></li>
+          <li><button type="button" class="button">Strony</button></li>
+          <li><button type="button" class="button">Aplikacje</button></li>
+          <li><button type="button" class="button">Dizajn</button></li>
+          <li><button type="button" class="button">Marketing</button></li>
+        </ul>
       </div>
-      <div class="contact-bottom">
-        <address class="contact-bottom-address">
-          m.Warszawa, Aleje Jerozolimskie 21
-        </address>
-        <br />
-        <div class="contact-bottom-links">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-          <a href="tel:+48111111111">+48 111 111 111</a>
+      <div class="container">
+        <ul class="cards">
+          <li class="card">
+            <figure>
+              <img
+                src="images/laptop.jpg"
+                alt="laptop"
+                width="370"
+                height="294"
+              />
+              <figcaption class="project-type">
+                <h4 class="project-title">Technotrack</h4>
+                <br />Strona internetowa
+              </figcaption>
+            </figure>
+          </li>
+          <li class="card">
+            <figure>
+              <img
+                src="images/basketball.jpg"
+                alt="koszykarze"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h4 class="project-title">
+                  Grafika New Orleans vs Golden Star
+                </h4>
+                <br />Dizajn
+              </figcaption>
+            </figure>
+          </li>
+          <li class="card">
+            <figure>
+              <img
+                src="images/seafood.jpg"
+                alt="logo restauracji"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h4 class="project-title">Restauracja Seafood</h4>
+                <br />Aplikacja
+              </figcaption>
+            </figure>
+          </li>
+          <li class="card">
+            <figure>
+              <img
+                src="images/headphones.jpg"
+                alt="słuchawki"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h4 class="project-title">Projekt Prime</h4>
+                <br />Marketing
+              </figcaption>
+            </figure>
+          </li>
+          <li class="card">
+            <figure>
+              <img
+                src="images/box.jpg"
+                alt="pudełka"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h4 class="project-title">Projekt Boxes</h4>
+                <br />Aplikacja
+              </figcaption>
+            </figure>
+          </li>
+          <li class="card">
+            <figure>
+              <img
+                src="images/monitor.jpg"
+                alt="monitor"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h4>Inspiration has no Borders</h4>
+                <br />Strona internetowa
+              </figcaption>
+            </figure>
+          </li>
+          <li class="card">
+            <figure>
+              <img
+                src="images/magazine.jpg"
+                alt="czasopismo"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h4>Magazyn Limited Edition</h4>
+                <br />Dizajn
+              </figcaption>
+            </figure>
+          </li>
+          <li class="card">
+            <figure>
+              <img
+                src="images/label.jpg"
+                alt="metka"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h4>Projekt LAB</h4>
+                <br />Marketing
+              </figcaption>
+            </figure>
+          </li>
+          <li class="card">
+            <figure>
+              <img
+                src="images/handson.jpg"
+                alt="ręce na laptopie"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <h4>Growing Business</h4>
+                <br />Aplikacja
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="logo-bottom">
+          <a href="index.html"><span class="blue">Web</span>Studio</a>
+        </div>
+        <div class="contact-bottom">
+          <address class="contact-bottom-address">
+            m.Warszawa, Aleje Jerozolimskie 21
+          </address>
+          <br />
+          <div class="contact-bottom-links">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
+            <a href="tel:+48111111111">+48 111 111 111</a>
+          </div>
         </div>
       </div>
     </footer>

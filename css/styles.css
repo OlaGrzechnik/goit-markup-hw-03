@@ -8,6 +8,7 @@ body {
   font-family: "roboto", "Raleway", sans-serif;
   text-decoration: none;
   color: #212121;
+  width: 1600px;
 }
 .logo-top a:link {
   color: black;
@@ -25,6 +26,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .top-links a:link {
   color: #757575;
@@ -41,6 +44,9 @@ body {
 .nav a:link {
   color: black;
   text-decoration: none;
+  display: inline-flex;
+  justify-content: space-around;
+  text-align: center;
 }
 .nav a:visited {
   color: black;
@@ -78,7 +84,7 @@ body {
 }
 .footer {
   color: white;
-  background-color: black;
+  background-color: #2f303a;
 }
 .main-portfolio {
   margin-left: 215px;
@@ -87,20 +93,24 @@ body {
 }
 .contact-bottom {
   font-style: normal;
-  margin-left: 215px;
+  padding-bottom: 60px;
+
   text-align: left;
 }
 .intro {
   background-color: #2f303a;
+  padding: 200px 452px 280px 452px;
+  width: 1600px;
+  margin: 0;
+  text-align: center;
+}
+.slogan {
+  width: 696px;
+  text-align: center;
   color: white;
   font-weight: 900;
   font-size: 44px;
-  padding: 200px 452px 280px 452px;
-  text-align: center;
-}
-.main-index {
-  margin-left: 215px;
-  margin-right: 215px;
+  justify-content: center;
 }
 .button {
   font-size: 16px;
@@ -132,7 +142,6 @@ body {
   font-family: "raleway";
   font-weight: 700;
   font-size: 26px;
-  padding-left: 215px;
   padding-top: 60px;
   margin-bottom: 20px;
 }
@@ -142,6 +151,9 @@ body {
 }
 .container {
   width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .section {
   padding-top: 94px;
@@ -162,7 +174,7 @@ body {
   list-style-type: none;
 }
 .card {
-  flex-basis: calc((100%-60px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 .lorem {
   display: flex;
@@ -171,13 +183,21 @@ body {
 .ipsum {
   flex-basis: calc((100%-90px) / 4);
 }
+.about {
+  text-align: center;
+  font-size: 32px;
+}
 .what-we-do {
   display: flex;
   justify-content: space-around;
-  margin: 0;
+  flex-flow: row;
+  text-align: center;
 }
 .team {
   display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+  text-align: center;
 }
 .team-member {
   flex-basis: calc((100%-90px) / 4);
