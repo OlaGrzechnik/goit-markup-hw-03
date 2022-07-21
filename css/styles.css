@@ -14,6 +14,20 @@ body {
   color: #212121;
   width: 1600px;
 }
+.header {
+  border-bottom: 1px solid #ececec;
+}
+.contacts-top {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  padding: 0;
+  margin: 0;
+}
+.contact-details-top {
+  display: inline-block;
+  font-size: 14px;
+}
 .logo-top a:link {
   color: black;
   text-decoration: none;
@@ -26,17 +40,15 @@ body {
 }
 
 .top {
-  border-bottom: 1px solid #ececec;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 .top-links {
   margin-left: 371px;
   display: inline-flex;
-  gap: 50px;
   margin-right: 0;
 }
 .top-links a:link {
@@ -83,7 +95,7 @@ body {
   display: flex;
   justify-content: center;
   margin-right: 8px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .project-title {
@@ -94,17 +106,17 @@ body {
 .project-type {
   font-size: 16px;
   color: #757575;
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
+  border-bottom: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
 }
 .footer {
   color: white;
   background-color: #2f303a;
 }
 .main-portfolio {
-  margin-left: 215px;
-  margin-right: 215px;
+  margin-bottom: 94px;
 }
 .contact-bottom {
   font-style: normal;
@@ -155,6 +167,12 @@ body {
   font-style: normal;
   text-align: left;
 }
+.contacts {
+  list-style-type: none;
+}
+.contact-detail {
+  padding-top: 9px;
+}
 .contact-bottom-links a:link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -196,7 +214,6 @@ body {
   gap: 30px;
   padding: 0;
   list-style-type: none;
-  margin-bottom: 94px;
 }
 .card {
   flex-basis: calc((100% - 60px) / 3);
@@ -220,7 +237,7 @@ body {
 }
 .what-we-do {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-flow: row;
   text-align: center;
   padding-bottom: 94px;
