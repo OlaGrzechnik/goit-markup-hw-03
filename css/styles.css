@@ -51,7 +51,7 @@ body {
   display: inline-flex;
   margin-right: 0;
 }
-.top-links a:link {
+.top-links a {
   color: #757575;
   text-decoration: none;
 }
@@ -218,6 +218,9 @@ body {
 .card {
   flex-basis: calc((100% - 60px) / 3);
   background-color: #ffffff;
+}
+.cardimg {
+  display: block;
 }
 .lorem {
   display: flex;
